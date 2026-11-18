@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+
+# Virtual environments
+.venv/
+venv/
+.pytest_cache/
+
+# OS files
+.DS_Store
+
+# Raw Kaggle data & generated submissions (keep git clean; track code & best stats)
+data/*.csv
+data/*.zip
+submissions/tmp_*.csv
